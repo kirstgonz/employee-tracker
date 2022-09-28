@@ -1,10 +1,28 @@
+const inquirer = require('inquirer');
+const consoleTable = require('console.table');
+// const {
+//     roleTable,
+//     addRole,
+// } = require('./db/tables')
+
+// const {
+//     deptTable,
+//     addDept
+// } = require('./db/tables/deptTable')
+
+// const {
+//     employeeTable,
+//     addEmployee,
+//     updateEmployee
+// } = require('./db/tables/employeeTable')
+
 const promptUser = () => {
     return inquirer.prompt ([
         {
             type: 'list',
             name: 'choices',
             message: 'What would you like to do?',
-            choices: ['view all departments', 'view all roles', 'view all employees', 'add a department', 'add a role', 'add an employee', 'update an employee role']
+            choices: ['view all departments', 'view all roles', 'view all employees', 'add a department', 'add a role', 'add an employee', 'update an employee role', 'quit']
         },
         {
             type: 'input',
@@ -121,7 +139,7 @@ const promptUser = () => {
                 if (employeeInput) {
                     return true;
                 } else {
-                    console.log("Please enter a valid last name!");
+                    console.log("Please enter a valid employee!");
                     return false;
                 }
             }
