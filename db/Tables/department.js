@@ -1,17 +1,17 @@
 const db = require('../connection');
 
-const deptTable = () => {
-    const sql = `SELECT * FROM department`;
+// const deptTable = () => {
+//     const sql = `SELECT * FROM department`;
 
-  db.query(sql, (err, rows) => {
-    if (err) {
-      console.log(err)
-      return;
-    }
-    console.table(rows);
-    promptUser();
-  });
-};
+//   db.query(sql, (err, rows) => {
+//     if (err) {
+//       console.log(err)
+//       return;
+//     }
+//     console.table(rows);
+//     promptUser();
+//   });
+// };
 
 
 const addDept = () => {

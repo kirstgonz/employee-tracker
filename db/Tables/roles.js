@@ -1,17 +1,17 @@
 const db = require('../connection');
 
-const rolesTable = () => {
-    const sql = `SELECT * FROM roles`;
+// const rolesTable = () => {
+//     const sql = `SELECT * FROM roles`;
 
-  db.query(sql, (err, rows) => {
-    if (err) {
-      console.log(err);
-      return;
-    }
-    console.table(rows);
-    promptUser();
-    });
-  };
+//   db.query(sql, (err, rows) => {
+//     if (err) {
+//       console.log(err);
+//       return;
+//     }
+//     console.table(rows);
+//     promptUser();
+//     });
+//   };
 
 const addRoles = () => {
 const sql = `INSERT INTO employee (id, title, salary, dept_id) VALUES (?,?,?,?)`;
