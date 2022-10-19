@@ -16,12 +16,11 @@ The Employee Tracker aides users in creating a SQL database to keep track of emp
 
 
 ## Usage and Website
-<!-- NEED TO UPDATE THIS -->
 [The Employee Tracker](https://kirstgonz.github.io/employee-tracker/) helps users keep better track of employees in a company. Using the npm package Inquirer, users are prompted to select any of the following: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 
-If you want to run this application from the command line, you must first npm init -y, npm install express, and then type in npm start. 
+If you want to run this application from the command line, you must first install all the dependencies through the command line by typing in 'npm i'. Then, the user will type 'mysql -u root -p'. Within the mysql window, the user will then sign in with their mysql password, then type 'source db/db.sql', 'source db/schema.sql', 'source db/seeds.sql', and then 'Quit'. Lastly, the user must change the password found in 'connection.js' to their mysql password. Finally, the user can run 'node app' from the command line and the application will start.
 
-A video walkthrough can be found [here]().
+A video walkthrough can be found [here](https://drive.google.com/file/d/136vcQsmyN8iLPuToktQTfc10E2sSBO3o/view?usp=sharing).
 
 ## Credits
 Built by [Kirstyn Gonzalez](https://github.com/kirstgonz)
