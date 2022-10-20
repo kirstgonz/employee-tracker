@@ -22,6 +22,10 @@ If you want to run this application from the command line, you must first instal
 
 A video walkthrough can be found [here](https://drive.google.com/file/d/136vcQsmyN8iLPuToktQTfc10E2sSBO3o/view?usp=sharing).
 
+Below is an example of the code found in the Tables folder within the db folder. This file is employee.js, which shows the employee table as well as adds and updates employees.
+
+![employee.js](assets/img/EmployeeTable.png)
+
 ## Credits
 Built by [Kirstyn Gonzalez](https://github.com/kirstgonz)
 
